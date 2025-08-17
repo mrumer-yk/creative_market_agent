@@ -2,6 +2,22 @@
 
 > **Built for Cycls' AI Challenge** - A sophisticated multi-step AI chain that generates culturally-aware marketing campaigns for the Riyadh/KSA market.
 
+## 🏗️ System Architecture
+
+The Creative Market Agent is built on a sophisticated **8-Phase AI Intelligence Processing Chain** that transforms basic product information into culturally-aware, compliance-ready marketing campaigns for the Riyadh/KSA market.
+
+![System Architecture](architecture_clean_no_emoji.svg)
+
+*[View full-size diagram](architecture_clean_no_emoji.svg) | [PNG version](architecture_clean_no_emoji.png)*
+
+### **Core Components**
+
+- **🎨 User Experience Layer**: Streamlit Web Application with modern React-like components
+- **🧠 AI Intelligence Processing Chain**: 8 sequential phases from input to output
+- **⚙️ Enterprise Backend Infrastructure**: Google Gemini API integration with modular services
+- **📊 Data Architecture**: Structured JSON flow with validation and quality assurance
+- **🛠️ Technology Stack**: Python 3.8+, Streamlit, Gemini API, and clean architecture principles
+
 ## 🚀 What This App Does
 
 The Creative Agent is an intelligent web application that transforms basic product information into complete, culturally-relevant marketing campaigns. It uses an 8-step AI chain to generate:
