@@ -6,9 +6,9 @@
 
 The Creative Market Agent is built on a sophisticated **8-Phase AI Intelligence Processing Chain** that transforms basic product information into culturally-aware, compliance-ready marketing campaigns for the Riyadh/KSA market.
 
-![System Architecture](architecture_clean_no_emoji.svg)
+![System Architecture](architecture_compact_clean.svg)
 
-*[View full-size diagram](architecture_clean_no_emoji.svg) | [PNG version](architecture_clean_no_emoji.png)*
+*[View full-size diagram](architecture_compact_clean.svg) | [PNG version](architecture_compact_clean.png)*
 
 ### **Core Components**
 
