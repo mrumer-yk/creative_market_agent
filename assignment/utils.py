@@ -4,6 +4,7 @@ import os
 import re
 from datetime import datetime
 from typing import Any, Dict
+import pytz
 
 import streamlit as st
 import google.generativeai as genai
@@ -31,7 +32,9 @@ CULTURAL_EVENTS = {
 
 def get_current_context() -> Dict[str, Any]:
     """Get current date, season, and cultural context for KSA market."""
-    now = datetime.now()
+    # Use KSA timezone (UTC+3)
+    ksa_tz = pytz.timezone('Asia/Riyadh')
+    now = datetime.now(ksa_tz)
     
     # Basic date info
     current_month = now.strftime("%B")
